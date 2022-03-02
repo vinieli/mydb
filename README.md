@@ -13,4 +13,4 @@ CREATE TABLE `post_job` (
   PRIMARY KEY (`id`)
 ) 
 ```
-Modify your MySQL connection information in ./src/main/resources/application.yml
+Modify your MySQL connection information in [application.yml](./src/main/resources/application.yml)
