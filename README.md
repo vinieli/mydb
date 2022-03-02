@@ -2,7 +2,7 @@
 
 It is a spring boot application.
 
-Please excute following SQL statements to create your table in MySQL.
+Please execute following SQL statements to create your table in MySQL.
 ```SQL 
 DROP TABLE IF EXISTS `post_job`;
 CREATE TABLE `post_job` (
@@ -14,3 +14,5 @@ CREATE TABLE `post_job` (
 ) 
 ```
 Modify your MySQL connection information in [application.yml](./src/main/resources/application.yml)
+
+Please contact by vinie_li@hotmail.com.
