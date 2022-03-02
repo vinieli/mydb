@@ -3,7 +3,7 @@
 It is a spring boot application.
 
 Please excute following SQL statements to create your table in MySQL.
-
+```SQL 
 DROP TABLE IF EXISTS `post_job`;
 CREATE TABLE `post_job` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -12,3 +12,5 @@ CREATE TABLE `post_job` (
   `place` varchar(200) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) 
+```
+Modify your MySQL connection information in ./src/main/resources/application.yml
